@@ -67,6 +67,7 @@
 (add-to-list 'auto-mode-alist '("\\.ru$" . ruby-mode))
 (add-to-list 'auto-mode-alist '("Gemfile$" . ruby-mode))
 (add-to-list 'auto-mode-alist '("Guardfile$" . ruby-mode))
+(add-to-list 'auto-mode-alist '("\\.haml$" . haml-mode))
 
 (setq inhibit-splash-screen t inhibit-startup-echo-area-message t)
 
