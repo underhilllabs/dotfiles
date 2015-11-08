@@ -71,6 +71,9 @@
 
 (setq inhibit-splash-screen t inhibit-startup-echo-area-message t)
 
+;; neotree >> package-install neotree
+(global-set-key [f8] 'neotree-toggle)
+
 ;; magit-status
 ;;   s: stage file, u: unstage, c: commit-log
 ;;   C-c C-c: commit, P: push
